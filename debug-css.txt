@@ -1,0 +1,39 @@
+#DEBUG_CSS 1.1 - Intro to debugging common CSS errors
+#DEBUG_CSS 1.2 - Common errors
+#DEBUG_CSS 1.3 - CSS Validator
+#DEBUG_CSS 1.4 - Outro to debugging common CSS errors
+
+
+
+#DEBUG_CSS 1.1 - Intro to debugging common HTML errors
+Hey Chris from Codify Academy here, in this video I want to cover the most common mistakes I make in CSS, and how you can avoid doing them.
+
+#DEBUG_CSS 1.2 - Common errors
+Common Error #1 Using an incorrect selector, Often you don't select the element or elements you wanted to so the easiest way to avoid this is to add a class to the element or elements you want to style and then call that class in your css to style it.
+Common Error #2 Forgetting a comma, when you want to apply properties to multiple selectors
+Common Error #3 Missing curly brackets after a selector is chosen, if you forget these lots of weird things can happen.
+Common Error #4 Missing a colon, if you forget a colon after a property it will not be good, always remember the two dots after a property name
+Common Error #5 Missing a semi-colon, after every property and value pair you have to have a semi-colon and without it weird things will happen. mostly your properties wont get applied.
+Common Error #6 Using Incorrect CSS properties, I have to look up the spelling of some properties I don't use all the time, don't be ashamed, just search for what you think the name should be
+Common Error #7 Using Incorrect CSS values, often times you can forget a px after a number and that will cause a incorrect value error, make sure to double check values when you add them. You can always look up what values can be added to a given property.
+
+I want to point out that there is a color pattern to CSS also.
+
+In CSS my HTML tag selectors are red, my class selectors are orange, id selectors will be blue, properties are usually white. and values can very depending on the type. for instance numbers with px should be orange, hexidecimal colors should be blue. and all syntax should be white.
+If something looks different then that I know something is incorrect around that area.
+
+
+
+#DEBUG_CSS 1.3 - CSS Validator
+We can also use the CSS validator to see if we have any errors, I always use the direct input method.
+just use control or command c to copy and v to paste your code.
+Hopefully you will just get this, which shows your code is error free.
+
+
+#DEBUG_CSS 1.4 - Outro to debugging common CSS errors
+overtime you will learn to spot errors by the color pattern in your text editor!
+
+In the future we'll also look over some code that has been broken so we ca debug it.
+and for now most of your errors in HTML and CSS are going to be syntax and spelling errors, so always check those 1st.
+
+Hopefully this video helps you avoid 7 mistakes I usually make while coding.
